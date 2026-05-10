@@ -1,0 +1,39 @@
+# ─── Environment ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Node / Frontend ─────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.log
+.vercel/
+
+# ─── .NET Backend ────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+.vs/
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+
+# ─── Python ML ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+ml-service/models/trained/
+
+# ─── Docker ──────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

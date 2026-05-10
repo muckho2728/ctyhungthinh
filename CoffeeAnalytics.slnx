@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/CoffeeAnalytics.API/CoffeeAnalytics.API.csproj" />
+    <Project Path="backend/CoffeeAnalytics.Application/CoffeeAnalytics.Application.csproj" />
+    <Project Path="backend/CoffeeAnalytics.Domain/CoffeeAnalytics.Domain.csproj" />
+    <Project Path="backend/CoffeeAnalytics.Infrastructure/CoffeeAnalytics.Infrastructure.csproj" />
+  </Folder>
+</Solution>
